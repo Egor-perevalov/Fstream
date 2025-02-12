@@ -1,0 +1,13 @@
+//main.cpp: 
+#include <iostream>
+#include <fstream>
+int main()
+{
+setlocale(LC_ALL, "RU");
+    std::ofstream file("example.txt", std::ios_base::out); {
+        if (file.is_open()) {
+            file << "Hello World!";
+        }
+    }
+std::cout << "file << "Hello World!"; - в 'Hello World!' поставте другое значение.";
+}
